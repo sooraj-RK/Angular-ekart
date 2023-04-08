@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="container row text-center">
+        <div class="p-4 col-3">
+            <a (click)="filter('')">
+            <img style="height:150px; width: 75%;" class="w-100 rounded-circle" src="">
+            <h4 class="pt-2">View all</h4>
+            </a>
+        </div>
+        
+
+        <div class="p-4 col-3">
+            <a (click)="filter(1)">
+            <img style="height:150px; width: 75%;" class="w-100 " src="https://i.postimg.cc/cLGDkg8c/apple-logo.jpg">
+            <h4 class="pt-2">Apple</h4>
+            </a>
+        </div>
+
+
+        <div class="p-4 col-3">
+           <a (click)="filter(2)">
+             <img style="height:150px; width: 75%;" class="w-100 rounded-circle" src="https://i.postimg.cc/522cb9Jv/Microsoft-Logo.png">
+            <h4 class="pt-2">microsoft</h4>
+           </a>
+        </div>
+
+        <div class="p-4 col-3">
+            <a (click)="filter(3)">
+            <img style="height:150px; width: 75%;" class="w-100 rounded-circle" src="">
+            <h4 class="pt-2"></h4>
+            </a>
+        </div>
+        
+
+
+    </div>
+
+
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                <div *ngFor="let i of filterproducts | filter:searchkey:'productName'" class="col mb-5">
+                    <div id="d1" class="card h-100">
+                        <!-- Product image-->
+                        <img style="height: 300px;" class="card-img-top" src="{{i.productImage}}" alt="..." />
+                        <!-- Product details-->
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <!-- Product name-->
+                                <h5 class="fw-bolder">{{i.productName}}</h5>
+                                <!-- Product price-->
+                                {{i.price}}Rs
+                                <p>Rating <strong>{{i.rating}}</strong></p>
+                            </div>
+                        </div>
+                        <!-- Product actions-->
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="products/view_product/{{i.id}}">View </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>

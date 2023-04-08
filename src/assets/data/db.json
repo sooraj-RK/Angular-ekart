@@ -1,0 +1,61 @@
+{
+    "products": [
+    
+    {
+        "id": 1,
+        "productName": "Apple 2021 MacBook Pro",
+        "categoryId": 1,
+        "description": "The 2021 MacBook Pro is the latest laptop from Apple, featuring a stunning Retina display, powerful M1 chip, and all-day battery life.",
+        "price": 144900.00,
+        "is_Available": true,
+        "productImage": "https://i.postimg.cc/VvmN4V8c/Apple-2021-Mac-Book-Pro.jpg",
+        "rating": 4.5,
+        "review": "I love my new MacBook Pro! The display is amazing and the performance is lightning fast. Highly recommended!",
+        "vendorName": "Apple Inc.",
+        "warranty": "This product comes with a one-year limited warranty and 90 days of complimentary technical support."
+    },
+    {
+        "id": 2,
+        "productName": "Apple 2020 MacBook Air Laptop M1",
+        "categoryId": 1,
+        "description": "The 2020 MacBook Air Laptop M1 is the latest laptop from Apple, featuring the new M1 chip, Retina display, Magic Keyboard, Touch ID and up to 18 hours of battery life.",
+        "price": 99990.00,
+        "is_Available": true,
+        "productImage": "https://i.postimg.cc/J00z9BGT/Apple-2020-Mac-Book-Air-Laptop-M1-chip.jpg",
+        "rating": 4.7,
+        "review": "I absolutely love my new MacBook Air with the M1 chip! It's incredibly fast and the battery life is amazing. The Retina display and Magic Keyboard are also fantastic. Highly recommended!",
+        "vendorName": "Apple Inc.",
+        "warranty": "This product comes with a one-year limited warranty and 90 days of complimentary technical support."
+    },
+    {
+        "id": 3,
+        "productName": "Apple 2022 MacBook Air Laptop M2",
+        "category": 1,
+        "description": "The 2022 MacBook Air Laptop M2 is the latest laptop from Apple, featuring the new M2 chip, Retina display, Magic Keyboard, Touch ID and up to 20 hours of battery life.",
+        "price": 112990,
+        "is_Available": true,
+        "productImage": "https://i.postimg.cc/3JgbGfLZ/Apple-2022-Mac-Book-Air-Laptop-with-M2-chip.jpg",
+        "rating": 4.9,
+        "review": "I'm blown away by the performance and battery life of my new MacBook Air with the M2 chip. The Retina display and Magic Keyboard are also top-notch. Highly recommended!",
+        "vendorName": "Apple Inc.",
+        "warranty": "This product comes with a one-year limited warranty and 90 days of complimentary technical support."
+    },
+    {
+        "id":4,
+        "productName": "Microsoft Laptop 4",
+        "categoryId": 2,
+        "description":"The Microsoft Laptop 4 is a premium laptop that's perfect for productivity and entertainment. It features a 13.5-inch touchscreen, 11th Gen Intel Core processors, up to 16GB of RAM, and up to 1TB of SSD storage. With up to 19 hours of battery life, you can work and play all day long.",
+        "price":"$1,299.99",
+        "is_Available": true,
+        "productImage":"https://i.postimg.cc/j531kVHV/Microsoft-Laptop-4.jpg",
+        "rating": 4.8,
+        "review": "The Microsoft Laptop 4 is an exceptional laptop! The design is sleek and professional, and the performance is top-notch. The battery life is amazing, and the touchscreen is very responsive. I highly recommend this laptop to anyone looking for a high-quality device for work or entertainment.",
+        "vendorName":"Microsoft",
+        "warranty":"1 year limited warranty"
+    }
+    
+    
+    
+    
+    ]
+    }
